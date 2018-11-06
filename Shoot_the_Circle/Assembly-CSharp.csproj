@@ -62,12 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\Scripts\ColorCycler.cs" />
-    <Compile Include="Assets\Scripts\Editor.cs" />
-    <Compile Include="Assets\Scripts\Pin.cs" />
-    <Compile Include="Assets\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\Game_Scripts\ColorCycler.cs" />
+    <Compile Include="Assets\Scripts\Game_Scripts\Editor.cs" />
+    <Compile Include="Assets\Scripts\Game_Scripts\Pin.cs" />
+    <Compile Include="Assets\Scripts\Game_Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\Game_Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Game_Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\Menu_Scripts\MainMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
