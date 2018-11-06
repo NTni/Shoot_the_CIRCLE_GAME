@@ -193,12 +193,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 519420032}
-  - component: {fileID: 519420034}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
-  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -298,59 +296,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &519420034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdcdd5883594d704d92724fb9245130f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Colors:
-  - {r: 1, g: 1, b: 1, a: 0}
-  - {r: 1, g: 0.8066038, b: 0.8066038, a: 0}
-  - {r: 0.7311321, g: 0.9948401, b: 1, a: 0}
-  - {r: 0.7877358, g: 1, b: 0.803787, a: 0}
-  - {r: 1, g: 0.75, b: 0.99838245, a: 0}
-  - {r: 1, g: 0.98772883, b: 0.6745283, a: 0}
-  - {r: 0.99203837, g: 0.75, b: 1, a: 0}
-  - {r: 0.7548365, g: 0.6933962, b: 1, a: 0}
-  - {r: 0.8562659, g: 1, b: 0.6839622, a: 0}
-  - {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 0}
-  Speed: 5
---- !u!114 &519420035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d13bf48ab009fb144bef4ceb8f6bd3e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RunEvery: 1
-  RunOnAwake: 0
-  Loop: 1
-  OnTimerEnd:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 519420034}
-        m_MethodName: Cycle
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &584537192
 GameObject:
   m_ObjectHideFlags: 0
