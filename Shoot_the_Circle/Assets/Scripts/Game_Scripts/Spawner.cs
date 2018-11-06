@@ -7,7 +7,7 @@ public class Spawner : MonoBehaviour
 
     public GameObject pinPrefab;
 
-    public float Score =0;
+    //public float Score =0;
 
     void Update()
     {
@@ -21,8 +21,8 @@ public class Spawner : MonoBehaviour
     void SpawnPin()
     {
         Instantiate(pinPrefab, transform.position, transform.rotation);
-        Score++;
-        Debug.Log(Score);
+        //Score++;
+        //Debug.Log(Score);
     }
 
 }

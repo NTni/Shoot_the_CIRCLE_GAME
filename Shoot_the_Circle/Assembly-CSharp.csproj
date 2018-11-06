@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Game_Scripts\Editor.cs" />
     <Compile Include="Assets\Scripts\Game_Scripts\Pin.cs" />
     <Compile Include="Assets\Scripts\Game_Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\Game_Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Game_Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\Game_Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\Menu_Scripts\MainMenu.cs" />

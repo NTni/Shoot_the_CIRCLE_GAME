@@ -21,7 +21,7 @@ public class Pin : MonoBehaviour
         if (col.tag == "Rotator")
         {
             transform.SetParent(col.transform);
-            //Score.PinCount++;
+            Score.PinCount++;
             col.GetComponent<Rotator>().speed += 10f; //increases speed 
             //col.GetComponent<Rotator>().speed *= -1f; //inverse the rotation
             isPinned = true;
